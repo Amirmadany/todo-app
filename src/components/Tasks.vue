@@ -34,7 +34,8 @@
             <div class="task-item-active">
                 
                 <draggable 
-                    v-model="donedTasks" 
+                    v-model="donedTasks"
+                    tag="transition-group"  
                     @start="drag=true" 
                     @end="drag=false" 
                     item-key="id">
