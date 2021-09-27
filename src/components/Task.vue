@@ -15,7 +15,15 @@
             </button>
 
             <button @click="doneTask(task.id)" class="task-btn task-done-btn">
-                <i class="far fa-check-circle"></i>
+                
+                <span v-if="task.done">
+                    <i class="fas fa-check-circle"></i>
+                </span>
+
+                <span v-else>
+                    <i class="far fa-check-circle"></i>
+                </span>
+
             </button>
 
         </div>
@@ -58,6 +66,7 @@ export default {
         align-items: center;
         justify-content: space-between;
         border-radius: 5px;
+        flex-wrap: wrap;
     }
 
     .task-content{
