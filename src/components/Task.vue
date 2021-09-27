@@ -61,7 +61,7 @@ export default {
         background: white;
         box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.11);
         margin: 1rem 0.5rem;
-        padding: 1rem 1rem;
+        padding: 0.25rem 1rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -78,8 +78,8 @@ export default {
         outline: none !important;
         font-size: 1rem;
         background: none;
-        margin-left: 0.75rem;
         cursor: pointer;
+        padding: 0.9rem 0.8rem;
     }
 
     .task-edit-btn{
@@ -93,6 +93,23 @@ export default {
     .task-done-btn{
         color: springgreen;
         font-size: 1.25rem;
+    }
+
+    @media (max-width: 22.3125rem){
+        
+        .task{
+            display: block;
+        }
+
+        .task-content{
+            padding-top: 0.8rem;
+            text-align: center;
+        }
+
+        .task-actions{
+            text-align: center;
+        }
+
     }
 
 </style>
