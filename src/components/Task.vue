@@ -61,7 +61,7 @@ export default {
         background: white;
         box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.11);
         margin: 1rem 0.5rem;
-        padding: 0.25rem 1rem;
+        padding: 1rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -79,7 +79,8 @@ export default {
         font-size: 1rem;
         background: none;
         cursor: pointer;
-        padding: 0.9rem 0.8rem;
+        padding: 0.25rem 0.25rem 0.25rem 0.75rem;
+        margin-left: 0.25rem;
     }
 
     .task-edit-btn{
@@ -108,6 +109,10 @@ export default {
 
         .task-actions{
             text-align: center;
+        }
+
+        .task-btn{
+            padding: 0.9rem 0.8rem;
         }
 
     }
