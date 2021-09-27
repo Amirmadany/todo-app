@@ -118,7 +118,7 @@ export default {
 
     .tasks-form{
         background: white;
-        border-radius: 5px;
+        border-radius: 3px;
         padding: 1rem;
         display: flex;
         align-items: center;
@@ -161,6 +161,21 @@ export default {
         color: rgb(255, 55, 55);
         font-weight: 600;
         font-size: 0.95rem;
+        border-radius: 0 0 3px 3px;
+    }
+
+    @media(max-width: 31.0625rem){
+        
+        .tasks-form{
+            width: 95%;
+            margin: auto;
+        }
+
+        .form-error{
+            margin: 0 auto 2rem auto;
+            width: 95%;
+        }
+
     }
 
 </style>
