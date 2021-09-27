@@ -2,7 +2,7 @@
 
     <footer class="footer">
 
-        <a href="" class="footer-link">
+        <a href="https://github.com/Amirmadany/todo-app" class="footer-link">
             <span class="footer-link-content">GitHub</span>
             <i class="fab fa-github footer-link-icon"></i>
         </a>
